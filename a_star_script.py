@@ -24,7 +24,7 @@ class Node:
 
     def __lt__(self, other):
         return self.f_score < other.f_score
-
+    
 def haversine(lat1, lon1, lat2, lon2):
     # Konversi derajat ke radian
     lat1 = math.radians(lat1)
@@ -50,7 +50,7 @@ def a_star(graph, start, goal):
     start.g_score = 0
     start.h_score = haversine(start.latitude, start.longitude, goal.latitude, goal.longitude)
     start.f_score = start.h_score
-
+    
     while open_set:
         current = heapq.heappop(open_set)
 
@@ -60,7 +60,8 @@ def a_star(graph, start, goal):
                 path.insert(0, current.name)
                 current = current.came_from
             return path
-
+        # Problem so far: Loop below wont run because user_node is not inserted to the graph
+        # current_name == "user_location" thus graph["user_location"] doesnt exist in the graph
         for neighbor in graph[current.name]:
             tentative_g_score = current.g_score + haversine(current.latitude, current.longitude, neighbor.latitude, neighbor.longitude)
 
@@ -78,31 +79,39 @@ def a_star(graph, start, goal):
 if __name__ == '__main__':
   try :
     input_data = json.loads(sys.stdin.read())
+    
+    import json
 
-    if isinstance(input_data, list) and len(input_data) == 3:
-      user_lat, user_long, data = input_data
+    # Change 1: If will check whether input_data is dictionary
+    # Previously If check whether input_data is list
+    if isinstance(input_data, dict) and 'user_lat' in input_data and 'user_long' in input_data and 'data' in input_data:
+    
+    # Change 2: Fetch all data from input_data from the form of dict
+    # Previously Fetch data from the form of list
+      user_lat = input_data['user_lat']
+      user_long = input_data['user_long']
+      data = input_data['data']
 
-      # Memasukkan data dan diubah menjadi object
-      nodes = [Node(name, lat, lon) for name, lat, lon in data]
-
-      # Bangun Graf
+      nodes = [Node(node_data['name'], node_data['latitude'], node_data['longitude']) for node_data in data]
+      
       graph = {node.name: [] for node in nodes}
       for node in nodes:
         for other_node in nodes:
           if node != other_node:
             graph[node.name].append(other_node)
-
-      nearest_markets = heapq.smallest(
-          5, nodes, key=lambda node: haversine(user_lat, user_long, node_lat, node_long)
-      )
-
+          
       user_node = Node('User_Location', user_lat, user_long)
+      
+      # Change 4 : Add User Graph where the node is user_node.name (User_Location)
+      graph[user_node.name] = [node for node in nodes if node != user_node]
+
+      nearest_markets = heapq.nsmallest(
+          5, nodes, key=lambda node: haversine(float(user_lat), float(user_long), float(node.latitude), float(node.longitude))
+      )
 
       for i, nearest_market in enumerate(nearest_markets):
         result_path = a_star(graph, user_node, nearest_market)
-
         if result_path:
-          print(f"Top {i + 1} Nearest Minimarket Path:")
           print(json.dumps({
               "goal_node": nearest_market.name,
               "distance_km": haversine(user_lat, user_long, nearest_market.latitude, nearest_market.longitude)
@@ -111,5 +120,5 @@ if __name__ == '__main__':
           print(f"Top {i + 1} Nearest Minimarket: No valid path found.")
     else:
       print(json.dumps({'error': 'Invalid input format. Expected a list of three arguments.'}))
-  except Exception as e:
+  except TypeError as e:
     print(json.dumps({'error': str(e)}))
