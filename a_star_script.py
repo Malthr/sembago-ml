@@ -93,7 +93,7 @@ if __name__ == '__main__':
             graph[node.name].append(other_node)
 
       nearest_markets = heapq.smallest(
-          5, nodes, key=lambda node: havesine(user_lat, user_long, node_lat, node_long)
+          5, nodes, key=lambda node: haversine(user_lat, user_long, node_lat, node_long)
       )
 
       user_node = Node('User_Location', user_lat, user_long)
@@ -103,7 +103,10 @@ if __name__ == '__main__':
 
         if result_path:
           print(f"Top {i + 1} Nearest Minimarket Path:")
-          print(json.dumps(result_path))
+          print(json.dumps({
+              "goal_node": nearest_market.name,
+              "distance_km": haversine(user_lat, user_long, nearest_market.latitude, nearest_market.longitude)
+          }))
         else:
           print(f"Top {i + 1} Nearest Minimarket: No valid path found.")
     else:
