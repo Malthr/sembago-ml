@@ -111,13 +111,11 @@ if __name__ == '__main__':
 
       for i, nearest_market in enumerate(nearest_markets):
         result_path = a_star(graph, user_node, nearest_market)
-        if result_path:
-          print(json.dumps({
-              "goal_node": nearest_market.name,
-              "distance_km": haversine(user_lat, user_long, nearest_market.latitude, nearest_market.longitude)
-          }))
-        else:
-          print(f"Top {i + 1} Nearest Minimarket: No valid path found.")
+        # Change 5 : Deleted If, So It Can Print 5 Nearest Place
+        print(json.dumps({
+            "goal": nearest_market.name,
+            "dist_km": haversine(user_lat, user_long, nearest_market.latitude, nearest_market.longitude)
+        }))
     else:
       print(json.dumps({'error': 'Invalid input format. Expected a list of three arguments.'}))
   except TypeError as e:
