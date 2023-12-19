@@ -1,251 +1,1001 @@
-"id_produk","id_market","nama_produk","stok",
-"a074","s685","Bruen","37",
-"a248","j668","Bernhard","42",
-"a356","n829","Effertz","47",
-"a519","s408","Shields","38",
-"a612","s926","White","21",
-"a680","p675","Weimann","33",
-"a937","z840","Hudson","47",
-"a966","u164","Cartwright","11",
-"b008","v545","Jerde","31",
-"b194","s685","Zboncak","39",
-"b248","b851","Terry","24",
-"b267","b851","Shanahan","47",
-"b277","u164","Bashirian","13",
-"b352","b851","Kessler","46",
-"b444","y554","Hegmann","36",
-"b524","p859","Veum","11",
-"b538","j668","Fadel","16",
-"b548","s926","Parker","15",
-"b711","w285","Rolfson","33",
-"b800","u511","Schmitt","47",
-"b851","c044","Bogan","20",
-"b866","j801","Treutel","10",
-"b889","w285","Bradtke","16",
-"b999","h995","Haag","15",
-"c001","s916","Klein","24",
-"c215","c044","Gorczany","42",
-"c459","s926","Abbott","18",
-"c466","w285","Lesch","29",
-"c513","n829","Gottlieb","22",
-"c527","u164","Kertzmann","32",
-"c572","s926","Mayert","48",
-"c582","c221","Stark","12",
-"c733","x399","Hickle","48",
-"c980","h333","Schneider","30",
-"d011","x399","O'Reilly","19",
-"d181","s685","Rempel","14",
-"d208","z840","Jacobs","21",
-"d313","w285","Hoppe","26",
-"d355","g864","Kuphal","26",
-"d378","b595","Zulauf","38",
-"d411","y554","Schuppe","15",
-"d696","s408","Schulist","30",
-"d735","w285","Johns","13",
-"d938","p859","Hamill","19",
-"e090","v545","Mante","35",
-"e112","x399","Heathcote","50",
-"e439","g864","Bednar","19",
-"e488","s685","Watsica","45",
-"e720","c044","Monahan","48",
-"e799","b851","Nicolas","48",
-"e826","v005","Boyer","40",
-"e837","v005","Wintheiser","26",
-"e908","v005","Windler","27",
-"f003","z840","Kuhn","20",
-"f024","p859","Schuster","41",
-"f116","h995","Abbott","44",
-"f139","h995","Morar","44",
-"f238","h333","Bergnaum","38",
-"f243","v005","Tremblay","23",
-"f247","x399","Hilpert","49",
-"f399","j668","Sawayn","20",
-"f494","z840","Jones","24",
-"f686","v545","Parker","13",
-"f770","h333","Rolfson","35",
-"f861","z874","Toy","30",
-"f867","b595","Cremin","41",
-"f902","s916","Predovic","21",
-"g124","c044","Barton","26",
-"g134","v005","Cassin","49",
-"g269","p675","Hyatt","19",
-"g332","y554","Purdy","40",
-"g517","s408","Hammes","43",
-"g652","n829","Kuhic","17",
-"g786","b595","Boehm","24",
-"g857","c221","Stanton","21",
-"g875","p859","Jaskolski","13",
-"g960","h333","Fahey","47",
-"h101","z874","Mills","13",
-"h299","u164","Torp","36",
-"h367","g864","O'Kon","49",
-"h652","g864","Wolf","49",
-"h667","b595","Gerhold","47",
-"i146","h333","Labadie","15",
-"i239","p859","Hagenes","39",
-"i276","p859","Thiel","16",
-"i294","h333","Spinka","13",
-"i409","s685","Stroman","28",
-"i581","v545","Bartell","36",
-"i848","z874","Marks","18",
-"i870","s408","Harber","19",
-"i973","p675","Sauer","37",
-"j004","v545","Medhurst","45",
-"j065","u164","Bartell","23",
-"j066","j668","Kling","29",
-"j200","p859","Miller","20",
-"j485","y554","Wolf","44",
-"j614","u164","Tremblay","13",
-"j723","x399","Harber","39",
-"j787","y554","Kuhn","40",
-"j810","j801","Daugherty","22",
-"j943","v005","Emmerich","40",
-"j970","g864","Sanford","17",
-"k004","x399","Feil","11",
-"k323","b595","Bednar","11",
-"k421","w285","Beer","47",
-"k508","v545","Fahey","43",
-"k650","u511","Corwin","20",
-"k969","j801","Considine","46",
-"l015","n829","Kub","10",
-"l188","s916","Bergnaum","49",
-"l241","g864","Kirlin","16",
-"l268","x399","Harris","14",
-"l271","b851","Watsica","14",
-"l340","h333","Heller","20",
-"l419","u511","Volkman","17",
-"l562","j668","Reichert","18",
-"l599","b595","Leuschke","39",
-"l850","s916","Ferry","32",
-"l935","y554","Boehm","11",
-"l991","c221","Anderson","49",
-"m464","z840","Bednar","36",
-"m587","h995","Kshlerin","17",
-"m602","u511","Schultz","17",
-"m634","s408","Lueilwitz","13",
-"m648","u164","Kihn","45",
-"m659","g864","Cronin","34",
-"m695","b851","Bernier","27",
-"m777","p675","Wehner","34",
-"n143","v545","Lakin","21",
-"n267","s916","Kuphal","49",
-"n336","c044","Feeney","16",
-"n567","x399","Hermann","29",
-"n669","s916","Schimmel","43",
-"n720","g864","Reichert","26",
-"n781","z874","Jacobson","40",
-"n894","b595","Jast","21",
-"n922","h333","King","31",
-"n929","j668","McCullough","10",
-"o041","s685","Kassulke","35",
-"o094","z874","Weimann","10",
-"o096","j801","Erdman","30",
-"o165","y554","Cartwright","32",
-"o464","p675","Okuneva","19",
-"o512","s408","Schowalter","40",
-"o614","v005","Daugherty","40",
-"o623","c044","Tromp","22",
-"o775","b851","Littel","36",
-"p182","n829","Boyer","26",
-"p234","v545","Zieme","17",
-"p322","x399","Denesik","16",
-"p352","g864","Larson","24",
-"p375","u511","Herman","19",
-"p424","j801","Rau","27",
-"p460","v545","Muller","36",
-"p589","y554","Abbott","43",
-"p626","s916","Mayer","43",
-"p982","s408","Block","22",
-"q171","u511","Stark","37",
-"q290","z840","Jaskolski","47",
-"q310","p675","Rogahn","45",
-"q474","s685","Nitzsche","50",
-"q484","z874","Greenholt","11",
-"q488","p859","Turner","46",
-"q611","c044","Waelchi","21",
-"q940","s926","Parker","49",
-"r204","c221","Wisoky","39",
-"r311","b595","Ankunding","15",
-"r448","j801","Trantow","30",
-"r514","u164","Mayer","46",
-"r606","c044","Ortiz","14",
-"r672","z840","Howell","21",
-"r990","u511","Bins","38",
-"s247","j668","Larkin","20",
-"s354","s685","Smith","44",
-"s488","b851","Collier","32",
-"s625","h995","Schmitt","23",
-"s643","n829","Jacobi","26",
-"s660","s916","Lehner","29",
-"s736","v005","Hermann","21",
-"s854","u164","Feeney","16",
-"s908","s685","Carroll","49",
-"s965","z840","Mills","24",
-"t022","c221","Halvorson","39",
-"t060","j668","Prohaska","40",
-"t209","s926","Altenwerth","30",
-"t260","c044","Deckow","25",
-"t374","j668","Grady","34",
-"t473","z840","Sporer","18",
-"t474","n829","Green","48",
-"t745","p859","Hettinger","41",
-"t856","y554","Legros","49",
-"t927","z874","Stokes","21",
-"t947","w285","Feil","19",
-"t950","h995","Mertz","18",
-"u062","j801","Kuhn","15",
-"u151","z874","O'Kon","44",
-"u225","h333","Harber","31",
-"u420","v005","Greenfelder","34",
-"u691","s685","Franecki","16",
-"u719","z874","Glover","41",
-"u786","s916","Hessel","34",
-"u829","b595","Bogan","14",
-"u879","z874","Hoppe","29",
-"u931","u511","Hintz","29",
-"v130","j801","Reinger","14",
-"v185","n829","Gibson","41",
-"v485","p675","Jenkins","30",
-"v659","h333","Kulas","27",
-"v719","s916","Murphy","42",
-"v864","b851","Medhurst","21",
-"v885","s408","Gleason","31",
-"v970","p675","Corkery","14",
-"w037","s408","White","48",
-"w044","j801","Swaniawski","34",
-"w061","c221","Gerhold","44",
-"w075","v005","Brekke","26",
-"w194","u511","Aufderhar","46",
-"w341","s926","Howell","39",
-"w381","p859","Bechtelar","33",
-"w804","z840","Durgan","16",
-"w849","u164","Bradtke","34",
-"w859","p675","Swift","45",
-"w955","c044","Kassulke","12",
-"x032","c221","Baumbach","30",
-"x135","p675","Schmeler","45",
-"x280","w285","Kirlin","43",
-"x339","y554","Hickle","46",
-"x424","v545","Mayert","25",
-"x450","u511","Stiedemann","13",
-"x544","s926","Romaguera","23",
-"x547","w285","Wehner","23",
-"x815","c221","Medhurst","32",
-"x930","c221","Franecki","36",
-"y246","s926","Stiedemann","17",
-"y429","c221","Ward","43",
-"y550","w285","Prosacco","18",
-"y605","s926","Schmeler","27",
-"y678","x399","Adams","33",
-"y712","j801","Stamm","15",
-"y822","b851","Rau","41",
-"y995","j668","Nolan","32",
-"z001","n829","Robel","43",
-"z016","h995","Senger","40",
-"z130","s408","Jacobi","24",
-"z143","n829","Raynor","50",
-"z327","h995","Jaskolski","48",
-"z420","g864","Goodwin","29",
-"z663","h995","Bergnaum","28",
-"z689","b595","Rodriguez","37",
-"z717","h995","Franecki","12",
+id_produk,id_market,nama_produk,stok
+a014,n829,Jeli,99
+a017,v545,Bawang Putih,32
+a030,p859,Cabe Rawit,40
+a051,b595,Jeruk Sambal,81
+a057,p859,Merica,46
+a061,c044,Asam Jawa,53
+a088,c044,Merica,61
+a156,c221,Tepung Ketan,34
+a235,s408,Kacang Hijau,95
+a285,g864,Bayam,96
+a328,n829,Beras,59
+a348,c221,Makanan Kaleng,73
+a358,n829,Terasi,64
+a363,b851,Jagung,44
+a409,b595,Kubis,80
+a437,c221,Bubuk Kaldu Ayam,35
+a447,j801,Seledri,90
+a450,b595,Gula Aren,81
+a453,g864,Lobak,33
+a476,w285,Bubuk Kaldu Ayam,80
+a480,p859,Jamur Kuping,72
+a483,z874,Telur Puyuh,66
+a494,y554,Kubis,55
+a502,y554,Paprika Hijau,53
+a509,z840,Daging Kambing,74
+a604,y554,Kacang Tanah,74
+a639,b851,Lengkuas,62
+a678,c221,Lada Putih,68
+a679,b595,Asam Jawa,65
+a685,w285,Jamur Kuping,46
+a695,y554,Bayam,77
+a747,h995,Kangkung,65
+a750,v545,Kecambah Panjang,45
+a794,x399,Telur Bebek,99
+a802,p675,Terong,79
+a840,y554,Bawang Merah,75
+a892,p859,Jahe,59
+a913,b851,Saus Tomat,51
+a920,b595,Kunyit,67
+a927,y554,Kacang Polong,91
+a947,p675,Kecap Manis,68
+a972,b595,Jeli,35
+a985,v005,Sotong,68
+b027,j801,Bubuk Kaldu Sapi,60
+b068,s916,Terong,91
+b086,b851,Kacang Merah,78
+b120,u511,Lada Hitam,90
+b124,n829,Kemiri,62
+b125,b595,Kecap Asin,64
+b136,p675,Wortel,30
+b141,j801,Jeruk Sambal,86
+b175,p859,Ikan Bandeng,85
+b194,h995,Tomat,67
+b252,s408,Mie Instan,77
+b268,p859,Cumi,68
+b390,c044,Kecambah Pendek,46
+b403,x399,Beras,27
+b422,z840,Gula Pasir,96
+b447,w285,Kacang Hijau,59
+b471,y554,Makanan Kaleng,59
+b488,v545,Sotong,68
+b495,y554,Bubuk Kaldu Sapi,60
+b515,c221,Telur Bebek,100
+b523,v005,Teh Bubuk,87
+b595,b851,Jeruk Nipis,60
+b624,b851,Serai,28
+b637,p675,Merica,82
+b638,b595,Brokoli,59
+b651,x399,Saus Tomat,40
+b684,x399,Cabe Rawit,26
+b688,h333,Kacang Tanah,52
+b717,p675,Daun Singkong,90
+b723,h995,Selada,78
+b727,y554,Indomie,42
+b735,b851,Bubuk Kaldu Ayam,81
+b774,p675,Gula Pasir,55
+b816,h333,Kecap Asin,33
+b824,s685,Serai,75
+b845,u511,Bawang Putih,98
+b903,p859,Udang Galah,33
+b907,x399,Seledri,28
+b919,w285,Selada,69
+b982,p859,Kecap Manis,80
+b984,p859,Gula Pasir,98
+c008,z840,Jamur Kuping,94
+c013,v005,Kunyit,50
+c016,j801,Tepung Ketan,98
+c047,y554,MSG,79
+c071,w285,Kayu Manis,66
+c097,y554,Bihun,43
+c160,x399,Selada,31
+c211,b595,Daging Ayam Kampung,86
+c218,s408,Kecap Manis,99
+c250,s408,Bubuk Kaldu Ayam,78
+c255,j668,Ubi Jalar,30
+c264,x399,Bawang Putih,82
+c267,j801,Ikan Bandeng,81
+c276,u511,Lengkuas,57
+c282,c221,Daging Kambing,96
+c289,j801,Kapulaga,91
+c358,v005,Gula Pasir,99
+c391,b595,Ketumbar,64
+c435,v005,Lengkuas,60
+c441,w285,Kopi Hitam,36
+c454,z840,Terasi,100
+c479,s685,Bawang Merah,85
+c480,y554,Jeli,63
+c522,p859,Labu,28
+c537,w285,Saus Cabai,73
+c558,y554,Cabe Merah Besar,31
+c570,c044,Daging Ayam Kampung,76
+c579,b851,Tomat,81
+c587,s916,Udang Galah,97
+c650,s408,Teh Bubuk,81
+c719,v005,Indomie,92
+c720,x399,Kunyit,64
+c731,z874,Saus Cabai,91
+c748,u164,Kacang Panjang,48
+c790,s916,Tomat,61
+c870,v005,Mie Telor,34
+c882,u164,Kemiri,29
+c958,j801,Saus Tiram,65
+c969,v545,Udang Ebi,67
+c971,s926,Garam,36
+c974,b851,Jamur Kuping,53
+c985,b851,Cabe Rawit,32
+d018,s916,Serai,87
+d070,p675,Cabe Merah Besar,32
+d097,z874,Saus Tiram,80
+d104,p859,Tepung Beras,45
+d123,g864,Jengkol,39
+d169,s685,Kacang Tanah,97
+d173,h333,Udang Ebi,89
+d181,b851,Lobster,73
+d186,u164,MSG,28
+d191,s685,Udang Ebi,86
+d228,j668,Jengkol,29
+d267,x399,Kacang Hijau,61
+d275,j801,Cengkeh,45
+d284,v005,Sawi,50
+d311,n829,Telur Puyuh,92
+d322,s926,Lada Hitam,27
+d333,c221,Ubi Jalar,30
+d361,v005,Saus Tomat,31
+d373,p859,Cabe Merah Besar,26
+d375,h995,Lada Putih,55
+d417,b595,Kentang,47
+d448,n829,Jengkol,59
+d449,u164,Bawang Merah,46
+d452,h995,Kecambah Panjang,51
+d469,s408,MSG,35
+d498,j801,Beras,64
+d535,s916,Makanan Kaleng,68
+d548,s685,Bubuk Kaldu Ayam,70
+d550,x399,Jamur Kuping,31
+d554,p859,Kacang Tanah,37
+d561,h995,Teh Bubuk,72
+d586,v005,Kubis,44
+d590,s685,Tepung Terigu,60
+d621,g864,Kacang Panjang,71
+d649,j668,Kacang Panjang,46
+d675,j801,Mie Telor,53
+d688,w285,Daging Kambing,66
+d690,v005,Cuka,82
+d708,w285,Sawi,87
+d720,z874,Bawang Merah,92
+d728,x399,Cabe Kering,48
+d743,b851,Paprika Hijau,47
+d753,v005,Minyak Goreng,82
+d758,c221,Bubuk Kaldu Jamur,98
+d760,v545,Beras,51
+d801,h333,Bawang Bombay,65
+d844,n829,Kecap Manis,53
+d854,c221,Cabe Kering,25
+d894,h995,Bubuk Kaldu Sapi,31
+d927,v005,Paprika Merah,94
+d933,s916,Telur Bebek,65
+d957,s916,Jagung,32
+d976,v005,Agar-agar,78
+d982,z840,Kecap Manis,50
+d985,c221,Jeruk Sambal,54
+d987,g864,Daun Singkong,48
+e019,z840,Kangkung,73
+e103,w285,Daun Singkong,89
+e125,h995,Beras,85
+e176,b851,Mie Instan,74
+e179,v005,Garam,64
+e259,z840,Paprika Hijau,46
+e274,n829,Sotong,67
+e282,v545,Terong,58
+e300,g864,Bawang Putih,26
+e314,v545,Tepung Ketan,33
+e326,p675,Bubuk Kaldu Jamur,61
+e344,h995,Jahe,71
+e372,b851,Bubuk Kaldu Sapi,74
+e373,c044,Daging Sapi,85
+e438,s408,Jamur Kuping,58
+e440,c044,Tepung Beras,39
+e446,h995,Kapulaga,37
+e475,u164,Terasi,28
+e510,c221,Singkong,49
+e554,v005,Kacang Polong,28
+e557,g864,Cabe Kering,59
+e581,z874,Kentang,81
+e637,s408,Garam,66
+e639,y554,Wortel,53
+e643,b851,Kapulaga,93
+e652,c044,Daun Bawang,85
+e661,j668,Lengkuas,34
+e662,u164,Mie Instan,50
+e670,j668,Daun Bawang,79
+e692,c044,Bihun,67
+e794,z874,Kacang Hijau,81
+e807,p675,Ketumbar,26
+e834,h995,Kacang Hijau,81
+e866,j668,Teh Bubuk,34
+e868,s926,Daging Sapi,48
+e917,h995,Saus Tomat,65
+e946,x399,Daging Kambing,66
+e968,s685,Lada Putih,38
+f044,h333,Sirup,84
+f045,j801,Bawang Putih,26
+f048,b595,Lada Putih,64
+f057,y554,Lada Hitam,46
+f071,j668,MSG,54
+f082,s685,Kapulaga,89
+f103,s916,Bihun,68
+f124,s926,Kepiting,100
+f135,g864,Bawang Bombay,51
+f161,j801,Serai,71
+f164,u511,Telur Puyuh,37
+f190,x399,Udang Ebi,99
+f193,c221,Terong,70
+f214,g864,Daging Kambing,28
+f240,s926,Bawang Merah,87
+f324,y554,Terasi,39
+f407,z840,Jeruk Sambal,47
+f464,g864,Jahe,78
+f470,s926,Kecambah Pendek,50
+f487,c221,Tepung Beras,30
+f492,j668,Jamur Kuping,53
+f494,c044,Jeruk Nipis,88
+f501,y554,Ikan Tongkol,25
+f619,s408,Jengkol,48
+f633,c044,Kecambah Panjang,57
+f682,h333,Saus Cabai,59
+f693,h995,Ikan Bandeng,86
+f701,z840,Kecambah Panjang,41
+f754,s685,Daun Singkong,54
+f755,z874,Saus Tomat,60
+f797,s408,Kecambah Panjang,84
+f836,s926,Kacang Merah,29
+f940,u511,Daging Sapi,44
+f945,s408,Serai,93
+f954,s926,Asam Jawa,33
+f999,u164,Lengkuas,86
+g026,b595,Kepiting,73
+g051,p859,Garam,31
+g057,s408,Bubuk Kaldu Sapi,91
+g134,s926,Gula Aren,62
+g144,x399,Lada Hitam,61
+g151,w285,Bubuk Kaldu Jamur,28
+g204,u511,Paprika Merah,82
+g220,w285,Kacang Merah,41
+g224,s916,Labu,38
+g245,h995,Cabe Rawit,69
+g285,s408,Kunyit,26
+g294,n829,Tepung Terigu,86
+g329,v005,Cabe Rawit,61
+g426,x399,Kecambah Pendek,91
+g428,z874,Udang Galah,60
+g466,x399,Singkong,40
+g493,u511,Cabe Keriting,80
+g545,x399,Cabe Keriting,66
+g600,p859,Ubi Jalar,62
+g626,z874,Kacang Panjang,59
+g657,s916,Agar-agar,35
+g678,j668,Cabe Kering,41
+g694,j801,Terasi,62
+g698,g864,Bubuk Kaldu Jamur,66
+g712,w285,Jahe,89
+g737,b595,Terasi,63
+g758,u164,Kacang Hijau,42
+g759,v545,Jamur Kuping,61
+g770,z840,Timun,64
+g779,u511,Cengkeh,77
+g788,c221,Bihun,84
+g810,u511,Lobster,81
+g878,y554,Mie Instan,86
+g915,s926,Ikan Lele,84
+g918,x399,Tepung Ketan,63
+g995,x399,Lada Putih,93
+h005,u164,Sawi,56
+h024,s408,Cengkeh,66
+h034,w285,Mie Instan,57
+h054,z840,Agar-agar,91
+h064,x399,Cengkeh,100
+h074,g864,Ikan Bandeng,43
+h097,g864,Buncis,45
+h113,z840,Ubi Jalar,96
+h116,p675,Ikan Bandeng,26
+h118,z874,Labu,25
+h124,s408,Labu,34
+h154,u164,Jeruk Nipis,59
+h157,s685,Jeruk Sambal,36
+h190,p675,Lobak,80
+h201,z840,Ikan Tongkol,56
+h236,z840,Kecap Asin,95
+h245,z874,Gula Pasir,82
+h278,s408,Bawang Merah,59
+h294,j668,Jeruk Sambal,40
+h324,p675,Bawang Putih,40
+h339,z840,Tomat,81
+h470,w285,Ikan Tongkol,39
+h496,s916,Ikan Tongkol,83
+h498,p859,Telur Ayam,56
+h500,c044,Buncis,44
+h552,x399,Kacang Merah,83
+h554,v005,Teh Celup,70
+h629,u164,Kapulaga,42
+h723,n829,Bayam,100
+h764,z874,Ikan Bawal,97
+h780,s926,Kapulaga,89
+h853,s926,Kemiri,55
+h871,s685,Terasi,73
+h883,u164,Ikan Tongkol,67
+h908,s926,Saus Cabai,30
+h921,v545,Singkong,49
+h925,u164,Teh Bubuk,26
+h947,b595,Bawang Merah,43
+h989,g864,Tepung Ketan,80
+i011,s926,Daun Bawang,77
+i037,w285,Cabe Keriting,34
+i040,v545,Terasi,28
+i042,p675,Kentang,83
+i069,s916,Ikan Bandeng,51
+i076,j668,Jahe,90
+i091,b595,Jagung,66
+i114,c221,Ketumbar,70
+i180,n829,Bihun,80
+i226,v005,Kacang Merah,39
+i270,n829,Selada,39
+i304,s926,Cabe Kering,96
+i401,u511,Mie Telor,40
+i410,j801,Jahe,79
+i420,n829,Daun Singkong,35
+i436,v545,Paprika Merah,39
+i465,c044,Kayu Manis,68
+i485,v005,Jeruk Nipis,79
+i490,j668,Daun Singkong,55
+i505,z874,Lada Hitam,30
+i523,p675,Kemiri,74
+i533,s685,Cengkeh,58
+i537,b851,Kecambah Panjang,46
+i667,j668,Tepung Beras,26
+i686,j668,Daging Sapi,37
+i753,w285,Lobak,35
+i807,h995,Jagung,85
+i818,p675,Asam Jawa,66
+i865,s685,Kecambah Panjang,67
+i882,v545,Cabe Merah Besar,45
+i915,s685,Daging Sapi,63
+i932,y554,Singkong,73
+i985,v545,Ikan Lele,30
+j022,v005,Wortel,76
+j025,c221,Jahe,37
+j039,b595,Kacang Hijau,71
+j040,g864,Tepung Beras,96
+j049,w285,Kentang,97
+j087,j801,Lengkuas,49
+j121,h995,Ikan Bawal,82
+j136,v005,Timun,70
+j138,p859,Wortel,93
+j177,u164,Bubuk Kaldu Ayam,100
+j180,s685,Merica,74
+j185,g864,Indomie,56
+j186,h995,Daging Ayam Kampung,29
+j254,z874,Bawang Putih,74
+j273,x399,Daging Ayam Ras,70
+j313,y554,Ubi Jalar,42
+j369,p675,Ikan Tongkol,43
+j371,j801,Agar-agar,33
+j414,s408,Kepiting,76
+j442,s916,Telur Ayam,33
+j445,w285,Kecambah Panjang,26
+j574,v545,Jahe,81
+j589,u164,Kacang Tanah,33
+j603,p675,Sirup,76
+j692,v545,Daun Singkong,46
+j701,c221,Beras,98
+j715,z840,Wortel,80
+j719,s408,Tepung Terigu,99
+j747,c221,Lobster,53
+j776,c221,Bubuk Kaldu Sapi,46
+j778,b595,Kangkung,93
+j779,w285,Wortel,85
+j805,b851,Lada Hitam,88
+j808,v005,Seledri,62
+j828,h995,Kecap Asin,80
+j850,s916,Cumi,100
+j862,b595,Bubuk Kaldu Jamur,28
+j870,u164,Sotong,89
+j901,b851,Garam,54
+j915,h995,Kecambah Pendek,94
+j917,g864,Paprika Hijau,96
+j941,v005,Jeli,48
+j956,s408,Selada,35
+j958,p675,Jamur Kuping,52
+j972,u164,Cabe Kering,28
+k015,j801,Lada Hitam,49
+k030,b595,Beras,73
+k062,c044,Ikan Bawal,63
+k064,z874,Makanan Kaleng,84
+k069,g864,Telur Puyuh,28
+k113,v005,Selada,52
+k175,z840,Lobster,34
+k215,j801,Kacang Hijau,48
+k251,s916,Brokoli,65
+k252,v005,Cabe Merah Besar,63
+k323,j668,Telur Bebek,80
+k350,y554,Asam Jawa,73
+k362,j801,Kecap Asin,86
+k363,v545,Jeli,68
+k392,s408,Indomie,46
+k476,s408,Seledri,99
+k514,s408,Sirup,28
+k606,j668,Tepung Terigu,75
+k607,y554,Selada,77
+k609,b595,Saus Tiram,34
+k610,c044,Serai,44
+k624,z874,Buncis,86
+k641,u164,Brokoli,69
+k701,s685,Jeruk Nipis,71
+k713,y554,Paprika Merah,53
+k751,s916,Cabe Merah Besar,56
+k783,c221,Terasi,47
+k784,z874,Mie Telor,45
+k800,x399,Jeruk Sambal,52
+k844,g864,Teh Celup,89
+k878,x399,Kecap Asin,95
+k930,h995,Lobster,69
+k938,s926,Telur Puyuh,37
+k978,n829,Daging Ayam Ras,96
+k979,h333,Bubuk Kaldu Sapi,26
+l002,u164,Merica,64
+l014,u511,Cuka,97
+l066,g864,Singkong,30
+l076,j668,Bihun,94
+l132,z840,Jagung,59
+l137,n829,Lengkuas,63
+l148,c221,Cabe Keriting,82
+l178,c221,Cuka,85
+l199,u511,Timun,83
+l208,z840,Kacang Panjang,54
+l260,c221,Sawi,97
+l296,s926,Bawang Putih,57
+l316,p859,Brokoli,64
+l324,s916,Gula Pasir,63
+l352,s408,Udang Ebi,63
+l410,w285,Ikan Bandeng,46
+l430,j668,Udang Ebi,46
+l445,v545,Lobak,75
+l453,n829,Bubuk Kaldu Jamur,51
+l495,b851,Ketumbar,31
+l570,u164,Kopi Hitam,54
+l595,n829,Indomie,83
+l608,s916,Bubuk Kaldu Jamur,46
+l643,b595,Kecambah Panjang,30
+l692,v005,Telur Ayam,43
+l720,g864,Kepiting,61
+l749,s916,Terasi,60
+l759,g864,Cabe Merah Besar,65
+l880,h995,Kopi Hitam,97
+l909,u164,Kubis,40
+l932,c221,Kopi Hitam,95
+l936,b851,Merica,100
+l951,p675,Bubuk Kaldu Ayam,60
+l979,z874,Serai,99
+m038,h995,Garam,70
+m065,z840,Udang Ebi,37
+m070,z840,Teh Celup,53
+m155,v005,Merica,98
+m167,j668,Kapulaga,45
+m189,x399,Kacang Tanah,61
+m228,h995,Bawang Merah,73
+m263,u511,Cabe Kering,80
+m289,b595,Mie Telor,98
+m292,v005,Ketumbar,80
+m336,s916,Ikan Bawal,67
+m408,x399,Kangkung,100
+m424,b851,Ikan Bawal,67
+m435,u164,Telur Ayam,50
+m482,s916,Tepung Beras,79
+m499,u511,Minyak Goreng,46
+m501,u511,Kecap Asin,36
+m507,g864,Kacang Tanah,81
+m514,p859,Lobster,25
+m650,b595,Bihun,65
+m654,s408,Teh Celup,41
+m678,z840,Indomie,66
+m681,h995,Bubuk Kaldu Ayam,40
+m705,c221,Jeruk Nipis,88
+m710,v545,Asam Jawa,50
+m716,j801,Daging Sapi,85
+m723,n829,Cabe Merah Besar,49
+m758,b851,Cabe Keriting,32
+m764,s926,Cabe Keriting,50
+m824,v005,Singkong,63
+m833,u511,Tepung Ketan,70
+m845,s926,Teh Bubuk,61
+m848,s926,Lobster,72
+m874,s685,Daging Ayam Kampung,51
+m890,s408,Beras,82
+m891,z874,Cengkeh,58
+m892,s916,Asam Jawa,100
+m920,p859,Kentang,91
+m925,u164,Cengkeh,95
+m928,j801,Cabe Rawit,80
+m991,g864,Sawi,59
+m999,y554,Ikan Lele,29
+n015,j801,Kangkung,61
+n023,u511,Terasi,53
+n034,j801,MSG,97
+n065,j801,Lobak,55
+n086,u164,Paprika Merah,55
+n111,y554,Daging Kambing,70
+n127,b851,Seledri,43
+n139,n829,Paprika Hijau,80
+n146,z840,Tepung Beras,59
+n185,s408,Saus Tiram,100
+n189,j801,Lada Putih,48
+n207,j668,Timun,39
+n217,s926,Cabe Rawit,30
+n242,g864,Daging Ayam Kampung,78
+n279,s926,Kecap Asin,31
+n283,v545,Minyak Goreng,53
+n287,s926,Kacang Tanah,40
+n323,p675,Kecap Asin,40
+n325,u164,Ikan Bawal,72
+n328,w285,Terasi,64
+n338,u164,Telur Bebek,59
+n344,b595,Bawang Bombay,49
+n348,b851,Mie Telor,91
+n357,g864,Bubuk Kaldu Sapi,78
+n422,v005,Jahe,39
+n427,z840,Teh Bubuk,25
+n443,p859,Bawang Bombay,89
+n463,n829,Kentang,27
+n529,w285,Bayam,34
+n551,s408,Kangkung,52
+n589,s408,Cabe Keriting,76
+n630,c221,Indomie,78
+n692,p859,Lengkuas,45
+n718,b595,Lengkuas,51
+n745,n829,Bubuk Kaldu Sapi,86
+n750,c221,Bayam,93
+n755,s685,Cabe Keriting,97
+n792,s926,Serai,48
+n845,c044,Telur Bebek,70
+n890,n829,Brokoli,93
+n898,j668,Bawang Putih,39
+n960,u511,Tepung Terigu,79
+n978,h995,Sirup,96
+o049,j801,Kayu Manis,33
+o106,w285,Ketumbar,30
+o113,p859,Daging Ayam Ras,76
+o120,s408,Cuka,70
+o175,u511,Kecap Manis,84
+o213,g864,Daging Sapi,72
+o300,u164,Selada,68
+o360,h333,Kangkung,36
+o401,z840,Bubuk Kaldu Sapi,94
+o403,c044,Tepung Ketan,36
+o405,p675,Buncis,58
+o419,s916,Minyak Goreng,38
+o431,p859,Cabe Kering,75
+o444,s408,Terong,91
+o518,j668,Lobak,79
+o521,p859,Singkong,34
+o608,j801,Kecap Manis,100
+o624,p859,Kecambah Pendek,59
+o633,z874,Timun,65
+o652,u511,Selada,71
+o658,s685,Jagung,81
+o661,s926,Daging Ayam Kampung,43
+o702,y554,Tepung Terigu,78
+o714,x399,Timun,68
+o739,h995,Tepung Beras,84
+o766,v005,Kecap Manis,77
+o791,w285,Cuka,72
+o837,s926,Kecambah Panjang,62
+o856,u164,Paprika Hijau,44
+o906,u511,Teh Celup,38
+o927,b595,Cabe Kering,30
+o969,u511,Daging Ayam Kampung,69
+p005,u164,Cabe Rawit,88
+p018,c221,Saus Cabai,66
+p045,c221,Daun Bawang,81
+p061,b851,Wortel,61
+p095,z874,Daging Kambing,87
+p101,v545,Wortel,30
+p106,u511,Bawang Bombay,37
+p126,x399,Jeruk Nipis,84
+p161,j668,Gula Aren,59
+p223,b595,Sawi,60
+p239,c221,Minyak Goreng,65
+p250,c044,Ikan Lele,72
+p262,x399,Gula Aren,79
+p313,v545,Cumi,69
+p341,h333,Jengkol,34
+p400,c044,Bubuk Kaldu Ayam,28
+p409,n829,Telur Bebek,97
+p442,h995,Daun Bawang,25
+p456,h333,Teh Bubuk,66
+p479,v545,Kecap Asin,59
+p522,w285,Makanan Kaleng,75
+p538,y554,Jahe,87
+p662,p675,Ikan Lele,89
+p664,j801,Ikan Tongkol,90
+p671,z874,Merica,97
+p678,b595,Cabe Keriting,76
+p683,s916,Paprika Hijau,69
+p745,h995,Makanan Kaleng,83
+p747,h995,Ubi Jalar,48
+p873,p859,Saus Tiram,67
+p875,j801,Lobster,89
+q018,h333,Bawang Merah,69
+q053,j668,Mie Telor,83
+q061,x399,Kayu Manis,97
+q080,b595,Indomie,60
+q096,c044,Makanan Kaleng,51
+q123,v545,Paprika Hijau,31
+q143,p675,Cabe Rawit,27
+q154,y554,Sawi,78
+q169,j668,Daging Ayam Kampung,34
+q173,v545,Gula Pasir,97
+q188,s685,Daging Kambing,100
+q192,j801,Jeli,53
+q196,s916,Cabe Keriting,82
+q224,u511,Brokoli,79
+q257,c221,Daun Singkong,72
+q333,z874,Kayu Manis,62
+q344,x399,Teh Bubuk,26
+q365,g864,Udang Galah,57
+q384,b851,Kecap Manis,42
+q418,u164,Beras,45
+q443,h333,Daging Ayam Kampung,77
+q486,s926,Agar-agar,88
+q568,j801,Bawang Bombay,80
+q644,w285,Gula Aren,64
+q682,s408,Tepung Beras,56
+q683,z874,Tepung Beras,76
+q699,p675,Agar-agar,81
+q712,s408,Udang Galah,45
+q723,z840,Jahe,100
+q734,s916,Singkong,63
+q751,y554,Lengkuas,65
+q772,h995,Kayu Manis,41
+q793,s916,Kunyit,31
+q818,g864,Saus Cabai,82
+q832,h995,Singkong,43
+q854,h333,Kayu Manis,38
+q882,z840,Bawang Merah,25
+q900,u164,Lobster,57
+q901,y554,Daging Ayam Kampung,51
+q980,c221,Saus Tiram,71
+r015,g864,Merica,91
+r032,h995,Daging Ayam Ras,75
+r042,p859,Lobak,33
+r086,s916,Mie Instan,99
+r091,s916,Daun Bawang,49
+r097,x399,Lobster,41
+r144,s926,Telur Ayam,100
+r175,h995,Labu,50
+r201,s916,Tepung Terigu,49
+r227,j801,Bubuk Kaldu Ayam,91
+r245,n829,Kacang Panjang,68
+r247,p859,Bubuk Kaldu Sapi,40
+r257,s685,Wortel,47
+r267,s408,Cabe Kering,62
+r279,n829,Cabe Kering,36
+r425,c221,Asam Jawa,94
+r437,n829,Gula Pasir,97
+r453,u511,Kemiri,47
+r469,b851,Kacang Tanah,77
+r481,c044,Lada Hitam,79
+r524,p675,Lengkuas,35
+r560,p675,Kacang Merah,36
+r582,z874,Mie Instan,60
+r583,j801,Cumi,32
+r612,x399,Tepung Beras,58
+r636,z874,MSG,28
+r651,b851,Tepung Beras,50
+r680,v005,Ikan Tongkol,53
+r683,j668,Singkong,63
+r726,x399,Agar-agar,92
+r735,j801,Cabe Merah Besar,85
+r747,n829,Kangkung,87
+r770,u164,Bihun,48
+r812,s926,Lada Putih,38
+r833,p675,Daun Bawang,87
+r843,z840,Makanan Kaleng,48
+r863,g864,Sotong,33
+r907,s916,Cabe Kering,41
+r917,x399,Cabe Merah Besar,72
+r965,v005,Kentang,66
+r979,p675,Jeruk Sambal,30
+r984,u164,Labu,53
+s015,n829,Wortel,81
+s037,y554,Minyak Goreng,54
+s052,v545,Bayam,68
+s057,w285,Daging Ayam Kampung,81
+s208,z874,Agar-agar,70
+s354,c044,Seledri,29
+s388,v545,Bawang Bombay,51
+s403,v005,Bihun,37
+s415,g864,Terong,71
+s438,h333,Wortel,29
+s485,v005,Buncis,68
+s571,v545,Bawang Merah,60
+s594,j668,Bawang Merah,100
+s612,s685,Ketumbar,37
+s643,b851,Kangkung,86
+s651,c044,Paprika Hijau,85
+s663,z874,Singkong,76
+s676,z874,Terong,55
+s703,x399,Lengkuas,89
+s709,z840,Cabe Kering,29
+s724,j801,Ikan Bawal,79
+s745,s926,Jeruk Sambal,82
+s752,n829,Kecambah Pendek,72
+s760,s926,Kacang Hijau,98
+s802,u511,Kangkung,30
+s857,s926,Ikan Tongkol,84
+s912,s916,Teh Celup,46
+s921,g864,Kangkung,59
+t026,b851,Ikan Lele,74
+t076,s685,Jengkol,87
+t100,s685,Ikan Lele,51
+t132,z840,Saus Cabai,66
+t133,u511,Kecambah Pendek,90
+t134,s916,Ubi Jalar,50
+t137,h333,Selada,32
+t158,z840,Kayu Manis,35
+t161,y554,Kapulaga,97
+t188,z840,Cabe Rawit,85
+t263,c044,Terong,70
+t283,u511,Singkong,56
+t294,p675,Telur Puyuh,81
+t312,v545,Agar-agar,57
+t409,j668,Merica,45
+t423,h333,Bubuk Kaldu Ayam,66
+t440,j668,Tepung Ketan,59
+t464,z840,Daging Ayam Ras,98
+t468,p675,Cabe Kering,68
+t485,p859,Kemiri,45
+t493,g864,Cuka,34
+t542,x399,Labu,69
+t553,s408,Asam Jawa,45
+t582,p859,Makanan Kaleng,32
+t650,v545,MSG,43
+t672,b595,Kacang Panjang,74
+t688,j668,Bubuk Kaldu Ayam,26
+t708,s685,Cabe Rawit,56
+t713,h995,Kecap Manis,61
+t728,v545,Mie Instan,38
+t750,j668,Lobster,25
+t752,c044,Lobak,55
+t807,s916,Kacang Tanah,37
+t817,s916,Sirup,37
+t833,h333,Kepiting,39
+t865,u164,Asam Jawa,65
+t894,n829,Labu,42
+t914,h333,Ubi Jalar,50
+t919,s685,Bayam,54
+t967,c044,Cabe Kering,84
+u020,z874,Kecambah Panjang,27
+u095,z840,Lada Putih,54
+u100,v005,Daun Singkong,59
+u121,v005,Beras,92
+u145,s916,Saus Tiram,48
+u159,p859,Tomat,53
+u162,v005,Serai,80
+u198,u511,Ikan Bawal,56
+u215,v545,Kacang Hijau,77
+u217,g864,Garam,93
+u232,c221,Lada Hitam,77
+u234,n829,Gula Aren,62
+u237,j801,Wortel,57
+u250,c044,Sawi,28
+u286,j668,Ikan Bawal,96
+u301,x399,Mie Telor,47
+u316,h333,Lada Putih,84
+u317,s926,Sawi,62
+u424,b851,Daging Sapi,64
+u441,x399,Kacang Panjang,76
+u450,p675,Lobster,53
+u485,h333,Buncis,93
+u557,w285,Daun Bawang,62
+u586,b851,Lobak,52
+u587,p675,Bawang Bombay,53
+u604,b851,Lada Putih,62
+u618,j801,Timun,31
+u621,b851,Cabe Kering,79
+u632,p859,Indomie,56
+u652,p859,Bubuk Kaldu Ayam,93
+u744,v545,Kacang Merah,70
+u753,w285,Asam Jawa,34
+u781,b595,Ikan Tongkol,85
+u804,s916,Buncis,56
+u807,b851,Tepung Terigu,64
+u836,z840,Bawang Bombay,70
+u839,w285,Lobster,90
+u895,b595,Lobak,88
+u930,h995,Ikan Tongkol,49
+u933,z840,Serai,59
+u979,c044,Udang Galah,65
+v053,j668,Kangkung,96
+v070,n829,Ubi Jalar,59
+v074,j668,Saus Tomat,82
+v086,s926,Bawang Bombay,92
+v096,y554,Labu,32
+v103,b595,Telur Puyuh,59
+v141,p859,Mie Instan,84
+v172,u164,Gula Aren,82
+v211,s408,Jeruk Nipis,41
+v214,w285,Bawang Putih,25
+v216,h333,Gula Pasir,86
+v254,s926,Merica,89
+v299,c044,Singkong,56
+v310,c221,Kemiri,69
+v313,u511,Kunyit,26
+v367,b595,Kayu Manis,53
+v373,x399,Asam Jawa,41
+v380,u511,Kubis,38
+v392,b851,Telur Bebek,51
+v397,p859,Teh Celup,72
+v452,s916,Kacang Polong,63
+v489,z874,Sawi,57
+v502,p859,Bawang Merah,89
+v545,p675,Tepung Beras,51
+v552,u511,Daun Singkong,62
+v631,p675,Paprika Merah,66
+v676,p675,Serai,99
+v732,s408,Tepung Ketan,99
+v734,j801,Teh Celup,66
+v763,u164,Jeruk Sambal,54
+v768,h995,Timun,61
+v780,n829,Terong,93
+v788,p859,Seledri,71
+v848,p675,Jeruk Nipis,95
+v874,z840,Ikan Lele,36
+v943,h333,Terasi,68
+v956,g864,Paprika Merah,30
+v965,s926,Bubuk Kaldu Sapi,36
+v995,u164,Saus Tiram,96
+w052,n829,Jagung,93
+w094,u511,Jeruk Nipis,50
+w183,v545,Kemiri,79
+w230,h333,Beras,48
+w258,j668,Serai,59
+w311,s926,Seledri,27
+w340,h333,Saus Tiram,53
+w407,s916,Kecap Asin,65
+w447,n829,Lada Hitam,44
+w455,w285,Kecap Asin,44
+w478,w285,Seledri,44
+w495,s685,Saus Tomat,79
+w529,u164,Daging Ayam Ras,70
+w530,n829,Teh Celup,52
+w562,u511,Kacang Tanah,70
+w571,u164,Ubi Jalar,32
+w612,s926,Labu,39
+w629,y554,Cengkeh,90
+w712,h995,Cabe Kering,95
+w723,z874,Bayam,88
+w743,s926,Daging Ayam Ras,74
+w759,v545,Kayu Manis,73
+w772,z840,Paprika Merah,96
+w844,p859,Kangkung,30
+w887,y554,Saus Cabai,88
+w893,v545,Tepung Beras,76
+w905,s685,Paprika Hijau,58
+w910,z874,Cumi,85
+w959,p675,Cabe Keriting,71
+w964,h333,Jamur Kuping,99
+w984,c221,Bawang Putih,78
+x028,b595,Saus Tomat,36
+x078,z874,Bawang Bombay,65
+x082,s685,Ubi Jalar,38
+x185,n829,Cabe Rawit,64
+x204,u511,Beras,40
+x234,b595,Kecap Manis,98
+x241,h333,MSG,98
+x274,h333,Terong,92
+x284,b595,Teh Celup,55
+x290,y554,Serai,86
+x304,p675,Terasi,71
+x307,p859,Kapulaga,40
+x372,s926,Lengkuas,29
+x378,h333,Ikan Bandeng,74
+x383,h995,MSG,42
+x415,v005,Kacang Panjang,83
+x501,v545,Jeruk Nipis,58
+x536,j801,Paprika Hijau,35
+x560,w285,Lada Hitam,33
+x564,z874,Cabe Keriting,58
+x574,s916,MSG,32
+x583,y554,Cuka,78
+x685,c221,Mie Instan,53
+x718,u511,Udang Galah,89
+x769,u511,Ubi Jalar,65
+x793,z874,Cuka,50
+x842,s408,Daging Ayam Kampung,72
+x845,u511,Bihun,45
+x856,u164,Timun,62
+x877,z874,Lobster,70
+x885,s685,Bubuk Kaldu Sapi,68
+x886,w285,Brokoli,43
+x911,b851,Buncis,83
+x915,n829,Jeruk Nipis,64
+x919,s685,Minyak Goreng,98
+x934,j801,Kemiri,32
+x943,j668,Cengkeh,93
+x948,u511,Daging Kambing,45
+x957,s685,Tomat,82
+x990,n829,Cabe Keriting,47
+x992,u511,Kacang Panjang,54
+y076,h333,Jeruk Sambal,67
+y145,z840,Daun Bawang,72
+y175,h333,Kacang Hijau,77
+y195,y554,Kangkung,40
+y197,n829,Makanan Kaleng,32
+y265,j668,Sawi,93
+y266,s685,Kacang Panjang,99
+y276,h333,Kentang,72
+y290,h333,Jahe,91
+y302,v545,Teh Bubuk,30
+y335,p675,Kacang Hijau,53
+y344,h333,Kubis,50
+y386,y554,Beras,66
+y424,c044,Ikan Bandeng,25
+y429,y554,Bubuk Kaldu Jamur,68
+y444,h333,Lobak,83
+y479,z874,Jengkol,60
+y515,w285,Lengkuas,65
+y568,c044,Kangkung,55
+y589,h333,Sawi,63
+y694,z874,Bubuk Kaldu Jamur,42
+y703,h333,Brokoli,43
+y766,s685,Timun,84
+y783,s685,Kecap Asin,50
+y792,p675,Kangkung,63
+y827,h333,Kunyit,53
+y881,s408,Kacang Merah,83
+y922,h333,Paprika Merah,77
+y926,v545,Kacang Polong,64
+y984,s408,Singkong,97
+z000,z874,Kacang Polong,94
+z014,w285,Singkong,28
+z130,z840,Seledri,26
+z157,g864,Ubi Jalar,98
+z173,h333,Minyak Goreng,34
+z183,j668,Ketumbar,75
+z190,g864,Lengkuas,32
+z226,h995,Kacang Tanah,44
+z234,b595,Singkong,45
+z361,s685,Daun Bawang,99
+z377,w285,Mie Telor,29
+z418,h995,Udang Ebi,37
+z469,s685,Beras,25
+z482,c044,Kecap Asin,72
+z484,v545,Brokoli,98
+z514,j668,Bubuk Kaldu Jamur,89
+z555,s685,Sirup,33
+z561,v545,Cabe Kering,74
+z592,j668,Bayam,48
+z599,g864,Kemiri,98
+z633,h333,Bihun,97
+z639,c044,Mie Instan,61
+z705,w285,Ikan Bawal,30
+z724,b595,Makanan Kaleng,51
+z729,c044,Bawang Merah,29
+z747,c044,Cabe Merah Besar,80
+z760,c044,Terasi,52
+z793,c044,Cuka,31
+z803,b851,Udang Ebi,31
+z825,c044,Selada,69
+z838,s685,Kangkung,82
+z842,c221,Kecap Manis,80
+z843,c044,Kacang Hijau,60
+z872,b851,Bihun,85
+z874,c044,Telur Ayam,33
+z882,c044,Labu,39
+z883,c221,Kangkung,70
+z919,s408,Merica,35
+z934,c221,Kecambah Pendek,46
+z948,b851,Indomie,42
+z965,g864,Timun,93
+z993,s685,Cabe Merah Besar,39
