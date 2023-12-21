@@ -24,22 +24,22 @@ class Node:
 
     def __lt__(self, other):
         return self.f_score < other.f_score
-    
+
 def haversine(lat1, lon1, lat2, lon2):
-    # Konversi derajat ke radian
+    # Convert degrees to radians
     lat1 = math.radians(lat1)
     lon1 = math.radians(lon1)
     lat2 = math.radians(lat2)
     lon2 = math.radians(lon2)
 
-    # Perbedaan latitude dan longitude
+    # Latitude and Longitude Difference
     dlat = lat2 - lat1
     dlon = lon2 - lon1
 
-    # Menggunakan rumus Haversine
+    # Haversine Formula
     a = math.sin(dlat/2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon/2)**2
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
-    radius = 6371  # Radius bumi dalam kilometer
+    radius = 6371  # Earth Radius in kilometer
     distance = radius * c
 
     return distance
@@ -50,7 +50,7 @@ def a_star(graph, start, goal):
     start.g_score = 0
     start.h_score = haversine(start.latitude, start.longitude, goal.latitude, goal.longitude)
     start.f_score = start.h_score
-    
+
     while open_set:
         current = heapq.heappop(open_set)
 
@@ -60,8 +60,7 @@ def a_star(graph, start, goal):
                 path.insert(0, current.name)
                 current = current.came_from
             return path
-        # Problem so far: Loop below wont run because user_node is not inserted to the graph
-        # current_name == "user_location" thus graph["user_location"] doesnt exist in the graph
+
         for neighbor in graph[current.name]:
             tentative_g_score = current.g_score + haversine(current.latitude, current.longitude, neighbor.latitude, neighbor.longitude)
 
@@ -79,30 +78,28 @@ def a_star(graph, start, goal):
 if __name__ == '__main__':
   try :
     input_data = json.loads(sys.stdin.read())
-    
+
     import json
 
-    # Change 1: If will check whether input_data is dictionary
-    # Previously If check whether input_data is list
+    # If will check whether input_data is dictionary
     if isinstance(input_data, dict) and 'user_lat' in input_data and 'user_long' in input_data and 'data' in input_data:
-    
-    # Change 2: Fetch all data from input_data from the form of dict
-    # Previously Fetch data from the form of list
+
+    # Fetch all data from input_data from the form of dict
       user_lat = input_data['user_lat']
       user_long = input_data['user_long']
       data = input_data['data']
 
       nodes = [Node(node_data['name'], node_data['latitude'], node_data['longitude']) for node_data in data]
-      
+
       graph = {node.name: [] for node in nodes}
       for node in nodes:
         for other_node in nodes:
           if node != other_node:
             graph[node.name].append(other_node)
-          
+
       user_node = Node('User_Location', user_lat, user_long)
-      
-      # Change 4 : Add User Graph where the node is user_node.name (User_Location)
+
+      # Add User Graph where the node is user_node.name (User_Location)
       graph[user_node.name] = [node for node in nodes if node != user_node]
 
       nearest_markets = heapq.nsmallest(
@@ -111,12 +108,12 @@ if __name__ == '__main__':
 
       for i, nearest_market in enumerate(nearest_markets):
         result_path = a_star(graph, user_node, nearest_market)
-        # Change 5 : Deleted If, So It Can Print 5 Nearest Place
         print(json.dumps({
-            "goal": nearest_market.name,
-            "dist_km": haversine(user_lat, user_long, nearest_market.latitude, nearest_market.longitude)
+            "goal_node": nearest_market.name,
+            "distance_km": haversine(user_lat, user_long, nearest_market.latitude, nearest_market.longitude)
         }))
     else:
       print(json.dumps({'error': 'Invalid input format. Expected a list of three arguments.'}))
   except TypeError as e:
     print(json.dumps({'error': str(e)}))
+
